@@ -1,3 +1,27 @@
 site_name: My Docs
 theme:
     name: material
+    language: zh-Hant
+    features:
+      - navigation.tabs
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.path
+      - navigation.indexes
+nav:
+    - index.md
+    - introduction.md
+    - deployment.md
+    - API.md
+    - FAQ.md
+    - Authors.md
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de

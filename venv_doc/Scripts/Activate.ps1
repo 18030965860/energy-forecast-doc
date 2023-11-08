@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="E:\0_CODE\Github\Energy Forecast Doc\venv_doc"
+$env:VIRTUAL_ENV="E:\0_CODE\Github\energy-forecast-doc\venv_doc"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

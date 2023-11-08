@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=E:\0_CODE\Github\Energy Forecast Doc\venv_doc
+set VIRTUAL_ENV=E:\0_CODE\Github\energy-forecast-doc\venv_doc
 
 if not defined PROMPT set PROMPT=$P$G
 
